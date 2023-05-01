@@ -1,0 +1,17 @@
+.btn {
+	border: 0;
+	border-radius: 3px;
+	background-color: aqua;
+}
+
+.btn-liked {
+	background-color: red;
+	color: white;
+	fill: red;
+}
+
+.btn-disliked {
+	border: 0;
+	border-radius: 3px;
+	background-color: white;
+}
