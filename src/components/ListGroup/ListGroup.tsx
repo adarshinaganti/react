@@ -22,7 +22,7 @@ interface ListItemProps {
 	active: boolean;
 }
 
-function ListGroup({items, heading, onSelectItem}: Props) {
+const ListGroup = ({items, heading, onSelectItem}: Props) => {
 	const [selected, setSelected] = useState(-1);
 
 	return (
@@ -45,6 +45,6 @@ function ListGroup({items, heading, onSelectItem}: Props) {
 			</List>
 		</>
 	);
-}
+};
 
 export default ListGroup;

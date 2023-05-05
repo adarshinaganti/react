@@ -3,7 +3,7 @@ interface AlertProps {
 	onClose: () => void;
 }
 
-function Alert({children, onClose}: AlertProps) {
+const Alert = ({children, onClose}: AlertProps) => {
 	return (
 		<>
 			<div
@@ -21,6 +21,6 @@ function Alert({children, onClose}: AlertProps) {
 			</div>
 		</>
 	);
-}
+};
 
 export default Alert;

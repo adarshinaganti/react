@@ -6,7 +6,7 @@ interface ButtonProps {
 	onClick(): void;
 }
 
-function Button({children, color, onClick}: ButtonProps) {
+const Button = ({children, color, onClick}: ButtonProps) => {
 	return (
 		<button
 			className={[styles.btn, styles["btn-" + color]].join(" ")}
@@ -15,6 +15,6 @@ function Button({children, color, onClick}: ButtonProps) {
 			{children}
 		</button>
 	);
-}
+};
 
 export default Button;
